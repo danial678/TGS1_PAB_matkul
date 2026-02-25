@@ -12,24 +12,22 @@ Halaman ini menampilkan daftar produk dalam bentuk grid menggunakan komponen Car
 Informasi yang ditampilkan pada setiap produk:
 
 Gambar produk
-
-Nama produk
-
-Harga dalam format Rupiah
-
-Tombol Add untuk menambahkan produk ke keranjang
+-Nama produk
+-Harga dalam format Rupiah
+-Tombol Add untuk menambahkan produk ke keranjang
 
 Di bagian kanan atas terdapat icon keranjang yang menampilkan jumlah item dalam bentuk badge. Ketika tombol Add ditekan, produk akan langsung masuk ke keranjang 
 dan jumlah item pada badge akan bertambah secara otomatis.
 
 
 Daftar produk yang tersedia:
-< - Laptop Gaming – Rp 15.000.000
+
+- Laptop Gaming – Rp 15.000.000
 - Smartphone Pro – Rp 8.000.000
 - Wireless Headphones – Rp 1.500.000
 - Smart Watch – Rp 3.000.000
 - Camera DSLR – Rp 12.000.000
-- Tablet Pro – Rp 7.000.000>
+- Tablet Pro – Rp 7.000.000
 
 
 <img width="361" height="714" alt="image" src="https://github.com/user-attachments/assets/655a85cd-d773-4d63-ac13-4c4b454f140d" />
