@@ -1,5 +1,5 @@
 ## Deskripsi Aplikasi
-Aplikasi terdiri dari tiga bagian utama, yaitu halaman daftar produk, halaman keranjang belanja, dan fitur checkout. Sistem dirancang untuk menampilkan produk, mengelola item yang dipilih pengguna, serta menghitung total pembayaran secara otomatis.
+Aplikasi terdiri dari dua bagian utama, yaitu halaman daftar produk dan halaman keranjang belanja. Sistem dirancang untuk menampilkan produk, mengelola item yang dipilih pengguna, serta menghitung total pembayaran secara otomatis.
 
 ### 1. Halaman Products
 
