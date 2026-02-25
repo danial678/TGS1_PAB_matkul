@@ -1,6 +1,9 @@
 ## Deskripsi Aplikasi
 Aplikasi terdiri dari tiga bagian utama, yaitu halaman daftar produk, halaman keranjang belanja, dan fitur checkout. Sistem dirancang untuk menampilkan produk, mengelola item yang dipilih pengguna, serta menghitung total pembayaran secara otomatis.
 
+<img width="358" height="714" alt="image" src="https://github.com/user-attachments/assets/5d6e103c-1a5c-4096-9603-5107224a37d0" />
+
+
 ### 1. Halaman Products
 Halaman ini menampilkan daftar produk dalam bentuk grid menggunakan komponen Card.
 Informasi yang ditampilkan pada setiap produk:
@@ -8,46 +11,32 @@ Gambar produk
 Nama produk
 Harga dalam format Rupiah
 Tombol Add untuk menambahkan produk ke keranjang
-
 Di bagian kanan atas terdapat icon keranjang yang menampilkan jumlah item dalam bentuk badge. Ketika tombol Add ditekan, produk akan langsung masuk ke keranjang dan jumlah item pada badge akan bertambah secara otomatis.
 
 Daftar produk yang tersedia:
-
 Laptop Gaming – Rp 15.000.000
-
 Smartphone Pro – Rp 8.000.000
-
 Wireless Headphones – Rp 1.500.000
-
 Smart Watch – Rp 3.000.000
-
 Camera DSLR – Rp 12.000.000
-
 Tablet Pro – Rp 7.000.000
 
+
+<img width="361" height="714" alt="image" src="https://github.com/user-attachments/assets/655a85cd-d773-4d63-ac13-4c4b454f140d" />
+
 2. Halaman Shopping Cart
-
 Halaman ini menampilkan semua produk yang telah ditambahkan ke dalam keranjang.
-
-Fitur yang tersedia pada halaman ini:
-
+Fitur yang tersedia pada halaman ini
 Menampilkan gambar, nama, dan harga produk
-
 Tombol untuk menambah jumlah item
-
 Tombol untuk mengurangi jumlah item
-
 Tombol hapus untuk menghapus produk dari keranjang
-
 Perhitungan subtotal per produk (harga dikalikan jumlah)
-
 Total keseluruhan belanja di bagian bawah
-
 Tombol Checkout
-
 Setiap perubahan jumlah item akan langsung memperbarui subtotal dan total pembayaran secara real-time.
 
-3. Fitur Checkout
+4. Fitur Checkout
 
 Ketika tombol Checkout ditekan, sistem akan menampilkan dialog konfirmasi yang berisi:
 
