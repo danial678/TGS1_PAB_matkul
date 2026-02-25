@@ -12,9 +12,10 @@ Halaman ini menampilkan daftar produk dalam bentuk grid menggunakan komponen Car
 Informasi yang ditampilkan pada setiap produk:
 
 Gambar produk
--Nama produk
--Harga dalam format Rupiah
--Tombol Add untuk menambahkan produk ke keranjang
+
+- Nama produk
+- Harga dalam format Rupiah
+- Tombol Add untuk menambahkan produk ke keranjang
 
 Di bagian kanan atas terdapat icon keranjang yang menampilkan jumlah item dalam bentuk badge. Ketika tombol Add ditekan, produk akan langsung masuk ke keranjang 
 dan jumlah item pada badge akan bertambah secara otomatis.
