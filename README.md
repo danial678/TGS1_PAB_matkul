@@ -1,9 +1,6 @@
 ## Deskripsi Aplikasi
 Aplikasi terdiri dari tiga bagian utama, yaitu halaman daftar produk, halaman keranjang belanja, dan fitur checkout. Sistem dirancang untuk menampilkan produk, mengelola item yang dipilih pengguna, serta menghitung total pembayaran secara otomatis.
 
-<img width="358" height="714" alt="image" src="https://github.com/user-attachments/assets/5d6e103c-1a5c-4096-9603-5107224a37d0" />
-
-
 ### 1. Halaman Products
 
 <img width="358" height="714" alt="image" src="https://github.com/user-attachments/assets/5d6e103c-1a5c-4096-9603-5107224a37d0" />
@@ -30,47 +27,28 @@ Daftar produk yang tersedia:
 - Camera DSLR – Rp 12.000.000
 - Tablet Pro – Rp 7.000.000
 
+2. Halaman Shopping Cart
 
 <img width="361" height="714" alt="image" src="https://github.com/user-attachments/assets/655a85cd-d773-4d63-ac13-4c4b454f140d" />
 
-2. Halaman Shopping Cart
 Halaman ini menampilkan semua produk yang telah ditambahkan ke dalam keranjang.
-Fitur yang tersedia pada halaman ini
-Menampilkan gambar, nama, dan harga produk
-Tombol untuk menambah jumlah item
-Tombol untuk mengurangi jumlah item
-Tombol hapus untuk menghapus produk dari keranjang
-Perhitungan subtotal per produk (harga dikalikan jumlah)
-Total keseluruhan belanja di bagian bawah
-Tombol Checkout
-Setiap perubahan jumlah item akan langsung memperbarui subtotal dan total pembayaran secara real-time.
+- Fitur yang tersedia pada halaman ini
+- Menampilkan gambar, nama, dan harga produk
+- Tombol untuk menambah jumlah item
+- Tombol untuk mengurangi jumlah item
+- Tombol hapus untuk menghapus produk dari keranjang
+- Perhitungan subtotal per produk (harga dikalikan jumlah)
+- Total keseluruhan belanja di bagian bawah
+- Tombol Checkout
+- Setiap perubahan jumlah item akan langsung memperbarui subtotal dan total pembayaran secara real-time.
 
-4. Fitur Checkout
 
-Ketika tombol Checkout ditekan, sistem akan menampilkan dialog konfirmasi yang berisi:
+### Implementasi Teknis
 
-Total pembayaran
-
-Jumlah item yang dibeli
-
-Tombol Cancel untuk membatalkan transaksi
-
-Tombol Confirm untuk menyelesaikan transaksi
-
-Fitur ini bertujuan untuk memastikan pengguna melakukan konfirmasi sebelum proses pembelian diselesaikan.
-
-Implementasi Teknis
-
-Beberapa komponen Flutter yang digunakan dalam aplikasi ini antara lain:
-
-GridView untuk menampilkan daftar produk
-
-Card untuk tampilan item produk
-
-State management untuk mengelola data keranjang
-
-Perhitungan total harga secara dinamis
-
-AlertDialog untuk konfirmasi checkout
-
-Pembaruan tampilan secara real-time berdasarkan perubahan state
+- Beberapa komponen Flutter yang digunakan dalam aplikasi ini antara lain:
+- GridView untuk menampilkan daftar produk
+- Card untuk tampilan item produk
+- State management untuk mengelola data keranjang
+- Perhitungan total harga secara dinamis
+- AlertDialog untuk konfirmasi checkout
+- Pembaruan tampilan secara real-time berdasarkan perubahan state
